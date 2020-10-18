@@ -1,6 +1,11 @@
 import React from 'react';
-// import logo from './logo.svg';
+import Header from './Header';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import Chats from './Chats';
+import ChatScreen from "./ChatScreen";
 import './App.css';
+import { firestore } from './firebase';
+
 
 function App() {
   // eslint-disable-next-line
